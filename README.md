@@ -1,0 +1,3 @@
+# React State Update Error
+
+This repository demonstrates a common error in React: directly modifying the state variable instead of using the `setState` function.  This leads to unexpected behavior and no re-render of the component. The incorrect implementation is shown in `bug.js`, while the correct solution is provided in `bugSolution.js`.  Always use the setter function (e.g., `setCount`) provided by `useState` to update state values.
